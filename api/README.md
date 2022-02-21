@@ -1,24 +1,15 @@
-# README
+# API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Premièrement, assurez vous d'avoir mongodb d'installé et lancé, sinon cliquez [ici](https://docs.mongodb.com/manual/installation/)
 
-Things you may want to cover:
+Ensuite naviguez dans `/api` et lancez les commandes suivantes:
 
-* Ruby version
+### Installer les dépendences
+```
+bundler install
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Lancer l'application
+```
+rails s
+```
