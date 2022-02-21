@@ -1,19 +1,13 @@
 # front
 
-## Project setup
+Ouvrez  un terminal et naviguez dans `/front` puis lancez les commandes suivantes:
+
+### Installer les dépendences
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Lancer l'application
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
