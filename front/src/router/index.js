@@ -10,6 +10,11 @@ const routes = [
     path: '/rse-manager',
     name: 'RSEManagerPage',
     component: () => import(/* webpackChunkName: "RSEManagerPage" */ '../views/RSEManagerPage.vue')
+  },
+  {
+    path: '/test',
+    name: 'TestPage',
+    component: () => import(/* webpackChunkName: "TestPage" */ '../views/TestPage.vue')
   }
 ]
 
